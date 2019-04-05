@@ -1,3 +1,5 @@
+require "DockingStation"
+
 describe DockingStation do
-  it "Allows bikes to be docked"
+  it { is_expected.to respond_to :release_bike }
 end
